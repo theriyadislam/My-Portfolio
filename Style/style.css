@@ -33,6 +33,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: black;
@@ -53,3 +54,18 @@ nav a{
     color: #474747;
 }
 /* nav related css */
+
+
+/* header related style */
+.header{
+    background: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .avater{
+    width: 500px;
+}
+/* header related style */
