@@ -91,6 +91,10 @@ nav a{
 }
 /* header related style */
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* Main section styles */
 /* about section styles */
@@ -99,6 +103,14 @@ nav a{
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-info{
+    text-align: center;
 }
 .section-title{
     color: #181818;
