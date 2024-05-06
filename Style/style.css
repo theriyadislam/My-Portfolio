@@ -157,4 +157,29 @@ main section{
 }
 .resume-container{
     display: flex;
+    gap: 50px;
+}
+/* .resume-item-info, .resume-item-description */
+.resume-item-info, 
+.resume-item-description{
+    color: #757575;
+}
+.resume-item-info{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-title{
+    color: #757575;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+
+/* Button Download CV */
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
